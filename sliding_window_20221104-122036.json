@@ -1,0 +1,101 @@
+{
+    "68.0": {
+        "result": [
+            true,
+            "Optimization failed."
+        ],
+        "const": 4.985670917440658e-12,
+        "lat_0": 0.0,
+        "eta": 0.5
+    },
+    "69.0": {
+        "result": [
+            false,
+            "Optimization terminated successfully."
+        ],
+        "const": -1.8695509526489815e-15,
+        "lat_0": -0.06129101328136658,
+        "eta": 0.9589768982473125
+    },
+    "70.0": {
+        "result": [
+            false,
+            "Optimization failed."
+        ],
+        "const": 1.7724197407492608e-07,
+        "lat_0": 69.18141123377302,
+        "eta": 0.011086829897498242
+    },
+    "71.0": {
+        "result": [
+            false,
+            "Optimization failed."
+        ],
+        "const": 5.308184130063456e-12,
+        "lat_0": 0.02863633545631329,
+        "eta": 0.7419370728969006
+    },
+    "72.0": {
+        "result": [
+            false,
+            "Optimization failed."
+        ],
+        "const": -6.407650341665296e-16,
+        "lat_0": 0.014627296229942535,
+        "eta": 0.985782968693203
+    },
+    "73.0": {
+        "result": [
+            false,
+            "Optimization failed."
+        ],
+        "const": 1.972149583605573e-16,
+        "lat_0": 0.07491693452003464,
+        "eta": 0.9999108562986557
+    },
+    "74.0": {
+        "result": [
+            false,
+            "Optimization failed."
+        ],
+        "const": 100000.0,
+        "lat_0": -4.0487165169855395,
+        "eta": 0.5
+    },
+    "75.0": {
+        "result": [
+            false,
+            "Optimization failed."
+        ],
+        "const": 1.2475473907310046e-12,
+        "lat_0": 0.03245195514566911,
+        "eta": 0.8189223866849826
+    },
+    "76.0": {
+        "result": [
+            false,
+            "Optimization terminated successfully."
+        ],
+        "const": -6.717491161811681e-16,
+        "lat_0": -0.11793837399588705,
+        "eta": 0.7299425612916903
+    },
+    "77.0": {
+        "result": [
+            false,
+            "Optimization failed."
+        ],
+        "const": -2.1875261592359206e-06,
+        "lat_0": -67.72626272125287,
+        "eta": 0.9319669477668273
+    },
+    "78.0": {
+        "result": [
+            false,
+            "Optimization terminated successfully."
+        ],
+        "const": -3.8866702579379425e-16,
+        "lat_0": 0.39471978482195363,
+        "eta": 0.9904889487404068
+    }
+}
