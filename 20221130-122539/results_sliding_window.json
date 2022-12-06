@@ -1,0 +1,376 @@
+{
+    "68.0": {
+        "models": [
+            "PowerLawSpectralModel",
+            "DiskSpatialModel"
+        ],
+        "result": [
+            true,
+            "Optimization terminated successfully.",
+            939811.7764723339
+        ],
+        "amplitude": 1.0001192566331609e-14,
+        "lat_0": 3.5148373960578407,
+        "r_0": 1.1616299973160642,
+        "e": 0.00837100571956578,
+        "phi": 0.0,
+        "edge_width": 0.1
+    },
+    "68.5": {
+        "models": [
+            "PowerLawSpectralModel",
+            "DiskSpatialModel"
+        ],
+        "result": [
+            false,
+            "Optimization failed.",
+            934701.002545082
+        ],
+        "amplitude": 1.4286418618771014e-14,
+        "lat_0": 2.5503742040443287,
+        "r_0": 2.3752646373394906,
+        "e": 0.008173770951197078,
+        "phi": 0.0,
+        "edge_width": 0.1
+    },
+    "69.0": {
+        "models": [
+            "PowerLawSpectralModel",
+            "DiskSpatialModel"
+        ],
+        "result": [
+            false,
+            "Optimization terminated successfully.",
+            945225.9266009497
+        ],
+        "amplitude": 1.2604011086444839e-14,
+        "lat_0": 2.511038217652255,
+        "r_0": 4.999463773373447,
+        "e": 0.0008063087472340205,
+        "phi": 0.0,
+        "edge_width": 0.1
+    },
+    "69.5": {
+        "models": [
+            "PowerLawSpectralModel",
+            "DiskSpatialModel"
+        ],
+        "result": [
+            true,
+            "Optimization failed.",
+            898940.770975543
+        ],
+        "amplitude": 1.0647996967738483e-14,
+        "lat_0": 1.8175220732652024,
+        "r_0": 4.9999997618619645,
+        "e": 0.0007704088770990485,
+        "phi": 0.0,
+        "edge_width": 0.1
+    },
+    "70.0": {
+        "models": [
+            "PowerLawSpectralModel",
+            "DiskSpatialModel"
+        ],
+        "result": [
+            true,
+            "Optimization terminated successfully.",
+            925493.7279084371
+        ],
+        "amplitude": 1.0000591814203285e-14,
+        "lat_0": 1.5571433768275447,
+        "r_0": 4.999999998130775,
+        "e": 3.733377737086659e-06,
+        "phi": 0.0,
+        "edge_width": 0.1
+    },
+    "70.5": {
+        "models": [
+            "PowerLawSpectralModel",
+            "DiskSpatialModel"
+        ],
+        "result": [
+            true,
+            "Optimization failed.",
+            929897.7455383299
+        ],
+        "amplitude": 1.0000039293481105e-14,
+        "lat_0": 1.586514887024028,
+        "r_0": 4.999999999947536,
+        "e": 4.925611786630576e-06,
+        "phi": 0.0,
+        "edge_width": 0.1
+    },
+    "71.0": {
+        "models": [
+            "PowerLawSpectralModel",
+            "DiskSpatialModel"
+        ],
+        "result": [
+            true,
+            "Optimization failed.",
+            906415.3568727109
+        ],
+        "amplitude": 1.1741546693924731e-14,
+        "lat_0": 1.946105566856486,
+        "r_0": 4.999999909841001,
+        "e": 4.09959191201053e-05,
+        "phi": 0.0,
+        "edge_width": 0.1
+    },
+    "71.5": {
+        "models": [
+            "PowerLawSpectralModel",
+            "DiskSpatialModel"
+        ],
+        "result": [
+            true,
+            "Optimization terminated successfully.",
+            872749.383328046
+        ],
+        "amplitude": 1.1383212071108795e-14,
+        "lat_0": 1.8575586433394946,
+        "r_0": 4.999999997362233,
+        "e": 5.844549919881029e-07,
+        "phi": 0.0,
+        "edge_width": 0.1
+    },
+    "72.0": {
+        "models": [
+            "PowerLawSpectralModel",
+            "DiskSpatialModel"
+        ],
+        "result": [
+            true,
+            "Optimization terminated successfully.",
+            839561.7018523621
+        ],
+        "amplitude": 1.0943955228256133e-14,
+        "lat_0": 1.7877796636886218,
+        "r_0": 4.9999995580878505,
+        "e": 3.1088134453891025e-12,
+        "phi": 0.0,
+        "edge_width": 0.1
+    },
+    "72.5": {
+        "models": [
+            "PowerLawSpectralModel",
+            "DiskSpatialModel"
+        ],
+        "result": [
+            true,
+            "Optimization failed.",
+            759726.415801692
+        ],
+        "amplitude": 1.0605458167972268e-14,
+        "lat_0": 1.57107997908507,
+        "r_0": 4.9999995760846785,
+        "e": 4.95824296322078e-07,
+        "phi": 0.0,
+        "edge_width": 0.1
+    },
+    "73.0": {
+        "models": [
+            "PowerLawSpectralModel",
+            "DiskSpatialModel"
+        ],
+        "result": [
+            true,
+            "Optimization failed.",
+            936560.5086837864
+        ],
+        "amplitude": 1.0000769572244317e-14,
+        "lat_0": 1.9083572143345868,
+        "r_0": 4.999999592613376,
+        "e": 4.951148781801441e-07,
+        "phi": 0.0,
+        "edge_width": 0.1
+    },
+    "73.5": {
+        "models": [
+            "PowerLawSpectralModel",
+            "DiskSpatialModel"
+        ],
+        "result": [
+            true,
+            "Optimization terminated successfully.",
+            940407.3242277415
+        ],
+        "amplitude": 1.0000907947716233e-14,
+        "lat_0": 1.7093122432000587,
+        "r_0": 4.999999999998769,
+        "e": 5.662720719713646e-08,
+        "phi": 0.0,
+        "edge_width": 0.1
+    },
+    "74.0": {
+        "models": [
+            "PowerLawSpectralModel",
+            "DiskSpatialModel"
+        ],
+        "result": [
+            true,
+            "Optimization terminated successfully.",
+            943214.4006045432
+        ],
+        "amplitude": 1.0003923036227655e-14,
+        "lat_0": 1.6523194777020793,
+        "r_0": 4.9999999666104085,
+        "e": 2.410005900112849e-05,
+        "phi": 0.0,
+        "edge_width": 0.1
+    },
+    "74.5": {
+        "models": [
+            "PowerLawSpectralModel",
+            "DiskSpatialModel"
+        ],
+        "result": [
+            true,
+            "Optimization terminated successfully.",
+            828158.2454678569
+        ],
+        "amplitude": 1.0009296093439224e-14,
+        "lat_0": 1.4825778125602997,
+        "r_0": 4.999999999914408,
+        "e": 1.2083209359944336e-06,
+        "phi": 0.0,
+        "edge_width": 0.1
+    },
+    "75.0": {
+        "models": [
+            "PowerLawSpectralModel",
+            "DiskSpatialModel"
+        ],
+        "result": [
+            true,
+            "Optimization terminated successfully.",
+            806305.089534218
+        ],
+        "amplitude": 1.0014881498254959e-14,
+        "lat_0": 1.5574134689321886,
+        "r_0": 4.999999996757123,
+        "e": 1.0261146080713188e-05,
+        "phi": 0.0,
+        "edge_width": 0.1
+    },
+    "75.5": {
+        "models": [
+            "PowerLawSpectralModel",
+            "DiskSpatialModel"
+        ],
+        "result": [
+            true,
+            "Optimization terminated successfully.",
+            792533.4593171051
+        ],
+        "amplitude": 1.0053935603508759e-14,
+        "lat_0": 1.5746658105484288,
+        "r_0": 4.999999999927941,
+        "e": 1.4888638573103475e-08,
+        "phi": 0.0,
+        "edge_width": 0.1
+    },
+    "76.0": {
+        "models": [
+            "PowerLawSpectralModel",
+            "DiskSpatialModel"
+        ],
+        "result": [
+            true,
+            "Optimization terminated successfully.",
+            528756.1120565076
+        ],
+        "amplitude": 1.002435900608053e-14,
+        "lat_0": 1.663248308466833,
+        "r_0": 4.999999999643106,
+        "e": 3.703133792210312e-05,
+        "phi": 0.0,
+        "edge_width": 0.1
+    },
+    "76.5": {
+        "models": [
+            "PowerLawSpectralModel",
+            "DiskSpatialModel"
+        ],
+        "result": [
+            true,
+            "Optimization terminated successfully.",
+            507265.01050607127
+        ],
+        "amplitude": 1.0000007116910147e-14,
+        "lat_0": 1.6695184898995752,
+        "r_0": 4.9999999981958165,
+        "e": 0.00035979295407068167,
+        "phi": 0.0,
+        "edge_width": 0.1
+    },
+    "77.0": {
+        "models": [
+            "PowerLawSpectralModel",
+            "DiskSpatialModel"
+        ],
+        "result": [
+            true,
+            "Optimization terminated successfully.",
+            488872.1734253562
+        ],
+        "amplitude": 1.0000001483207543e-14,
+        "lat_0": 1.6535989964942088,
+        "r_0": 4.9999999965778095,
+        "e": 3.3322968704139816e-07,
+        "phi": 0.0,
+        "edge_width": 0.1
+    },
+    "77.5": {
+        "models": [
+            "PowerLawSpectralModel",
+            "DiskSpatialModel"
+        ],
+        "result": [
+            true,
+            "Optimization terminated successfully.",
+            491490.9888597922
+        ],
+        "amplitude": 1.0000277902440165e-14,
+        "lat_0": 1.6970485170093828,
+        "r_0": 4.9999999570930544,
+        "e": 1.0271207779425268e-05,
+        "phi": 0.0,
+        "edge_width": 0.1
+    },
+    "78.0": {
+        "models": [
+            "PowerLawSpectralModel",
+            "DiskSpatialModel"
+        ],
+        "result": [
+            true,
+            "Optimization terminated successfully.",
+            494011.99126967014
+        ],
+        "amplitude": 1.0000006321266401e-14,
+        "lat_0": 1.8570199551802458,
+        "r_0": 4.999999999450058,
+        "e": 5.928876423828247e-07,
+        "phi": 0.0,
+        "edge_width": 0.1
+    },
+    "78.5": {
+        "models": [
+            "PowerLawSpectralModel",
+            "DiskSpatialModel"
+        ],
+        "result": [
+            true,
+            "Optimization terminated successfully.",
+            336683.61518149904
+        ],
+        "amplitude": 1.0028045654713036e-14,
+        "lat_0": 1.797025893957093,
+        "r_0": 4.999999675010949,
+        "e": 1.0175329392924628e-05,
+        "phi": 0.0,
+        "edge_width": 0.1
+    }
+}
