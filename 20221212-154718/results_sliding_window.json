@@ -1,0 +1,376 @@
+{
+    "68.0": {
+        "models": [
+            "PowerLawSpectralModel",
+            "DiskSpatialModel"
+        ],
+        "result": [
+            false,
+            "Optimization failed. Estimated distance to minimum too large.",
+            1290839.4420936713
+        ],
+        "amplitude": 1.153487761313076e-14,
+        "lat_0": 1.9472790884561622,
+        "r_0": 0.9768733816247863,
+        "e": 0.05904510343354508,
+        "phi": 0.0,
+        "edge_width": 0.1
+    },
+    "68.5": {
+        "models": [
+            "PowerLawSpectralModel",
+            "DiskSpatialModel"
+        ],
+        "result": [
+            false,
+            "Optimization failed. Estimated distance to minimum too large.",
+            1285994.2713699667
+        ],
+        "amplitude": 1.0115836958417801e-14,
+        "lat_0": 2.096702939667781,
+        "r_0": 0.715584078565472,
+        "e": 0.45954445220483614,
+        "phi": 0.0,
+        "edge_width": 0.1
+    },
+    "69.0": {
+        "models": [
+            "PowerLawSpectralModel",
+            "DiskSpatialModel"
+        ],
+        "result": [
+            false,
+            "Optimization failed. Estimated distance to minimum too large.",
+            1369578.9429303075
+        ],
+        "amplitude": 1.1779138063277487e-14,
+        "lat_0": 1.4345353821641686,
+        "r_0": 1.2773249578776422,
+        "e": 0.030139751707571716,
+        "phi": 0.0,
+        "edge_width": 0.1
+    },
+    "69.5": {
+        "models": [
+            "PowerLawSpectralModel",
+            "DiskSpatialModel"
+        ],
+        "result": [
+            false,
+            "Optimization failed. Estimated distance to minimum too large.",
+            1300164.1687764619
+        ],
+        "amplitude": 1.3238318716340465e-14,
+        "lat_0": 4.325734349201435,
+        "r_0": 4.448739780597493,
+        "e": 6.259105744294956e-05,
+        "phi": 0.0,
+        "edge_width": 0.1
+    },
+    "70.0": {
+        "models": [
+            "PowerLawSpectralModel",
+            "DiskSpatialModel"
+        ],
+        "result": [
+            false,
+            "Optimization failed. Estimated distance to minimum too large.",
+            1337009.381605621
+        ],
+        "amplitude": 1.5373032183756567e-14,
+        "lat_0": 4.420233951696963,
+        "r_0": 4.966321468796468,
+        "e": 0.15523752782851116,
+        "phi": 0.0,
+        "edge_width": 0.1
+    },
+    "70.5": {
+        "models": [
+            "PowerLawSpectralModel",
+            "DiskSpatialModel"
+        ],
+        "result": [
+            false,
+            "Optimization failed. Estimated distance to minimum too large.",
+            1344801.1436586864
+        ],
+        "amplitude": 1.0019201332026168e-14,
+        "lat_0": 4.9884402916603365,
+        "r_0": 4.999999852539567,
+        "e": 3.900946889622524e-08,
+        "phi": 0.0,
+        "edge_width": 0.1
+    },
+    "71.0": {
+        "models": [
+            "PowerLawSpectralModel",
+            "DiskSpatialModel"
+        ],
+        "result": [
+            true,
+            "Optimization failed.",
+            1307116.2005502817
+        ],
+        "amplitude": 1.1545880809589296e-14,
+        "lat_0": 0.3535048960230462,
+        "r_0": 4.999999852539567,
+        "e": 3.900946889622524e-08,
+        "phi": 0.0,
+        "edge_width": 0.1
+    },
+    "71.5": {
+        "models": [
+            "PowerLawSpectralModel",
+            "DiskSpatialModel"
+        ],
+        "result": [
+            false,
+            "Optimization failed. Estimated distance to minimum too large.",
+            1266531.3470664984
+        ],
+        "amplitude": 1.0391098465153516e-14,
+        "lat_0": 1.3960744800486322,
+        "r_0": 4.999995231629934,
+        "e": 2.993778784985844e-07,
+        "phi": 0.0,
+        "edge_width": 0.1
+    },
+    "72.0": {
+        "models": [
+            "PowerLawSpectralModel",
+            "DiskSpatialModel"
+        ],
+        "result": [
+            false,
+            "Optimization failed. Estimated distance to minimum too large.",
+            1225880.565863345
+        ],
+        "amplitude": 1.0534395720447864e-14,
+        "lat_0": 2.1015165293331717,
+        "r_0": 4.999995780059507,
+        "e": 1.103816252930772e-06,
+        "phi": 0.0,
+        "edge_width": 0.1
+    },
+    "72.5": {
+        "models": [
+            "PowerLawSpectralModel",
+            "DiskSpatialModel"
+        ],
+        "result": [
+            false,
+            "Optimization failed. Estimated distance to minimum too large.",
+            1105355.0694240676
+        ],
+        "amplitude": 1.000026887296013e-14,
+        "lat_0": 1.41912431429705,
+        "r_0": 4.999996532292074,
+        "e": 1.1858863276470552e-06,
+        "phi": 0.0,
+        "edge_width": 0.1
+    },
+    "73.0": {
+        "models": [
+            "PowerLawSpectralModel",
+            "DiskSpatialModel"
+        ],
+        "result": [
+            false,
+            "Optimization failed. Estimated distance to minimum too large.",
+            1448607.745823567
+        ],
+        "amplitude": 1.0000087313245418e-14,
+        "lat_0": 2.1201640970532862,
+        "r_0": 4.999999995209539,
+        "e": 1.9080955001487e-05,
+        "phi": 0.0,
+        "edge_width": 0.1
+    },
+    "73.5": {
+        "models": [
+            "PowerLawSpectralModel",
+            "DiskSpatialModel"
+        ],
+        "result": [
+            true,
+            "Optimization terminated successfully.",
+            1467262.6299876007
+        ],
+        "amplitude": 1.0000000672659162e-14,
+        "lat_0": 1.5373748262432432,
+        "r_0": 4.999999999998055,
+        "e": 3.963445025268754e-08,
+        "phi": 0.0,
+        "edge_width": 0.1
+    },
+    "74.0": {
+        "models": [
+            "PowerLawSpectralModel",
+            "DiskSpatialModel"
+        ],
+        "result": [
+            false,
+            "Optimization failed. Estimated distance to minimum too large.",
+            1485021.8660133206
+        ],
+        "amplitude": 1.0855306174516764e-14,
+        "lat_0": 1.050877262646757,
+        "r_0": 4.99999486234466,
+        "e": 9.536740132414488e-07,
+        "phi": 0.0,
+        "edge_width": 0.1
+    },
+    "74.5": {
+        "models": [
+            "PowerLawSpectralModel",
+            "DiskSpatialModel"
+        ],
+        "result": [
+            false,
+            "Optimization failed. Estimated distance to minimum too large.",
+            1469251.9024458635
+        ],
+        "amplitude": 1.055106532546169e-14,
+        "lat_0": 1.337498819922245,
+        "r_0": 4.999999286921346,
+        "e": 6.67307415321537e-08,
+        "phi": 0.0,
+        "edge_width": 0.1
+    },
+    "75.0": {
+        "models": [
+            "PowerLawSpectralModel",
+            "DiskSpatialModel"
+        ],
+        "result": [
+            false,
+            "Optimization failed. Estimated distance to minimum too large.",
+            1469460.654776587
+        ],
+        "amplitude": 1.0016550560898316e-14,
+        "lat_0": 1.6136940257340269,
+        "r_0": 4.99997708731717,
+        "e": 1.4868051673901507e-07,
+        "phi": 0.0,
+        "edge_width": 0.1
+    },
+    "75.5": {
+        "models": [
+            "PowerLawSpectralModel",
+            "DiskSpatialModel"
+        ],
+        "result": [
+            false,
+            "Optimization failed. Estimated distance to minimum too large.",
+            1389162.6054870046
+        ],
+        "amplitude": 1.0009527203392281e-14,
+        "lat_0": 4.426054806034399,
+        "r_0": 4.999123873398806,
+        "e": 1.487357178214896e-07,
+        "phi": 0.0,
+        "edge_width": 0.1
+    },
+    "76.0": {
+        "models": [
+            "PowerLawSpectralModel",
+            "DiskSpatialModel"
+        ],
+        "result": [
+            false,
+            "Optimization failed. Estimated distance to minimum too large.",
+            1289152.5512861097
+        ],
+        "amplitude": 1.0009527203392281e-14,
+        "lat_0": 4.426054806034399,
+        "r_0": 4.999123873398806,
+        "e": 1.487357178214896e-07,
+        "phi": 0.0,
+        "edge_width": 0.1
+    },
+    "76.5": {
+        "models": [
+            "PowerLawSpectralModel",
+            "DiskSpatialModel"
+        ],
+        "result": [
+            false,
+            "Optimization failed. Estimated distance to minimum too large.",
+            1289811.304838934
+        ],
+        "amplitude": 1.0009527203392281e-14,
+        "lat_0": 4.426054806034399,
+        "r_0": 4.999123873398806,
+        "e": 1.487357178214896e-07,
+        "phi": 0.0,
+        "edge_width": 0.1
+    },
+    "77.0": {
+        "models": [
+            "PowerLawSpectralModel",
+            "DiskSpatialModel"
+        ],
+        "result": [
+            false,
+            "Optimization failed. Estimated distance to minimum too large.",
+            1245122.5873982443
+        ],
+        "amplitude": 1.0009527203392281e-14,
+        "lat_0": 4.426054806034399,
+        "r_0": 4.999123873398806,
+        "e": 1.487357178214896e-07,
+        "phi": 0.0,
+        "edge_width": 0.1
+    },
+    "77.5": {
+        "models": [
+            "PowerLawSpectralModel",
+            "DiskSpatialModel"
+        ],
+        "result": [
+            false,
+            "Optimization failed. Estimated distance to minimum too large.",
+            1262961.109076729
+        ],
+        "amplitude": 1.0009527203392281e-14,
+        "lat_0": 4.426054806034399,
+        "r_0": 4.999123873398806,
+        "e": 1.487357178214896e-07,
+        "phi": 0.0,
+        "edge_width": 0.1
+    },
+    "78.0": {
+        "models": [
+            "PowerLawSpectralModel",
+            "DiskSpatialModel"
+        ],
+        "result": [
+            false,
+            "Optimization failed. Estimated distance to minimum too large.",
+            1280550.5220874131
+        ],
+        "amplitude": 1.0009527203392281e-14,
+        "lat_0": 4.426054806034399,
+        "r_0": 4.999123873398806,
+        "e": 1.487357178214896e-07,
+        "phi": 0.0,
+        "edge_width": 0.1
+    },
+    "78.5": {
+        "models": [
+            "PowerLawSpectralModel",
+            "DiskSpatialModel"
+        ],
+        "result": [
+            false,
+            "Optimization failed. Estimated distance to minimum too large.",
+            1042111.8548292823
+        ],
+        "amplitude": 1.0009527203392281e-14,
+        "lat_0": 4.426054806034399,
+        "r_0": 4.999123873398806,
+        "e": 1.487357178214896e-07,
+        "phi": 0.0,
+        "edge_width": 0.1
+    }
+}

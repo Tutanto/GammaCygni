@@ -36,7 +36,7 @@ def plot_results(lists, spectra=1, spatial=1):
     fig.subplots_adjust(hspace=1, wspace=1)
 
     ax[0].semilogy(lists[0], lists[2])
-    ax[0].set_ylim(1.e-14, 1.e-10)
+    ax[0].set_ylim(1.e-15, 1.e-10)
     if spectra == 1:
         ax[0].set_title("amplitude")
     else:
@@ -49,7 +49,7 @@ def plot_results(lists, spectra=1, spatial=1):
     ax[1].set_ylabel("deg")
 
     ax[2].plot(lists[0], lists[4])
-    ax[2].set_ylim(0, 4)
+    ax[2].set_ylim(0, 5)
     if spatial == 0:
         ax[2].set_title("Sigma parameter")
     else:
