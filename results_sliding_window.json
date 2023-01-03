@@ -1,0 +1,24 @@
+{
+    "68.0": {
+        "models": [
+            "skymodel/global_skymodel_v1.0.yaml",
+            "analysis_4"
+        ],
+        "result": [
+            false,
+            "Optimization terminated successfully.",
+            -965167.1561127503
+        ]
+    },
+    "68.5": {
+        "models": [
+            "skymodel/global_skymodel_v1.0.yaml",
+            "analysis_4"
+        ],
+        "result": [
+            false,
+            "Optimization terminated successfully.",
+            -971193.866351255
+        ]
+    }
+}

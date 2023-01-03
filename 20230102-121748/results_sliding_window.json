@@ -1,0 +1,178 @@
+{
+    "68.0": {
+        "models": "skymodel/global_skymodel_v1.0.yaml",
+        "result": [
+            false,
+            "Optimization terminated successfully.",
+            1290838.989196632
+        ]
+    },
+    "68.5": {
+        "models": "skymodel/global_skymodel_v1.0.yaml",
+        "result": [
+            false,
+            "Optimization terminated successfully.",
+            1285993.658270743
+        ]
+    },
+    "69.0": {
+        "models": "skymodel/global_skymodel_v1.0.yaml",
+        "result": [
+            false,
+            "Optimization failed. Estimated distance to minimum too large.",
+            1369577.9055563665
+        ]
+    },
+    "69.5": {
+        "models": "skymodel/global_skymodel_v1.0.yaml",
+        "result": [
+            false,
+            "Optimization failed. Estimated distance to minimum too large.",
+            1300162.693319278
+        ]
+    },
+    "70.0": {
+        "models": "skymodel/global_skymodel_v1.0.yaml",
+        "result": [
+            false,
+            "Optimization terminated successfully.",
+            1337028.1582206525
+        ]
+    },
+    "70.5": {
+        "models": "skymodel/global_skymodel_v1.0.yaml",
+        "result": [
+            false,
+            "Optimization terminated successfully.",
+            1344799.0419556915
+        ]
+    },
+    "71.0": {
+        "models": "skymodel/global_skymodel_v1.0.yaml",
+        "result": [
+            false,
+            "Optimization failed. Estimated distance to minimum too large.",
+            1307243.0637658483
+        ]
+    },
+    "71.5": {
+        "models": "skymodel/global_skymodel_v1.0.yaml",
+        "result": [
+            false,
+            "Optimization terminated successfully.",
+            1266531.0716470978
+        ]
+    },
+    "72.0": {
+        "models": "skymodel/global_skymodel_v1.0.yaml",
+        "result": [
+            false,
+            "Optimization terminated successfully.",
+            1225886.08520409
+        ]
+    },
+    "72.5": {
+        "models": "skymodel/global_skymodel_v1.0.yaml",
+        "result": [
+            false,
+            "Optimization terminated successfully.",
+            1105486.9901438933
+        ]
+    },
+    "73.0": {
+        "models": "skymodel/global_skymodel_v1.0.yaml",
+        "result": [
+            false,
+            "Optimization terminated successfully.",
+            1448661.22035435
+        ]
+    },
+    "73.5": {
+        "models": "skymodel/global_skymodel_v1.0.yaml",
+        "result": [
+            false,
+            "Optimization terminated successfully.",
+            1467260.4453863138
+        ]
+    },
+    "74.0": {
+        "models": "skymodel/global_skymodel_v1.0.yaml",
+        "result": [
+            false,
+            "Optimization terminated successfully.",
+            1485030.7631603747
+        ]
+    },
+    "74.5": {
+        "models": "skymodel/global_skymodel_v1.0.yaml",
+        "result": [
+            false,
+            "Optimization failed. Estimated distance to minimum too large.",
+            1469252.8295776166
+        ]
+    },
+    "75.0": {
+        "models": "skymodel/global_skymodel_v1.0.yaml",
+        "result": [
+            false,
+            "Optimization failed. Estimated distance to minimum too large.",
+            1469472.5834161155
+        ]
+    },
+    "75.5": {
+        "models": "skymodel/global_skymodel_v1.0.yaml",
+        "result": [
+            false,
+            "Optimization terminated successfully.",
+            1389162.491266772
+        ]
+    },
+    "76.0": {
+        "models": "skymodel/global_skymodel_v1.0.yaml",
+        "result": [
+            false,
+            "Optimization terminated successfully.",
+            1289152.5830551265
+        ]
+    },
+    "76.5": {
+        "models": "skymodel/global_skymodel_v1.0.yaml",
+        "result": [
+            false,
+            "Optimization terminated successfully.",
+            1289811.341082009
+        ]
+    },
+    "77.0": {
+        "models": "skymodel/global_skymodel_v1.0.yaml",
+        "result": [
+            false,
+            "Optimization terminated successfully.",
+            1245122.6159009968
+        ]
+    },
+    "77.5": {
+        "models": "skymodel/global_skymodel_v1.0.yaml",
+        "result": [
+            false,
+            "Optimization terminated successfully.",
+            1262961.1395674457
+        ]
+    },
+    "78.0": {
+        "models": "skymodel/global_skymodel_v1.0.yaml",
+        "result": [
+            false,
+            "Optimization terminated successfully.",
+            1280550.5603348676
+        ]
+    },
+    "78.5": {
+        "models": "skymodel/global_skymodel_v1.0.yaml",
+        "result": [
+            false,
+            "Optimization failed. Estimated distance to minimum too large.",
+            1042111.2902293552
+        ]
+    }
+}

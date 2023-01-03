@@ -1,0 +1,244 @@
+{
+    "68.0": {
+        "models": [
+            "skymodel/global_skymodel_v1.0.yaml",
+            "analysis_2"
+        ],
+        "result": [
+            false,
+            "Optimization terminated successfully.",
+            1831413.79276351
+        ]
+    },
+    "68.5": {
+        "models": [
+            "skymodel/global_skymodel_v1.0.yaml",
+            "analysis_2"
+        ],
+        "result": [
+            false,
+            "Optimization terminated successfully.",
+            1826909.7881525757
+        ]
+    },
+    "69.0": {
+        "models": [
+            "skymodel/global_skymodel_v1.0.yaml",
+            "analysis_2"
+        ],
+        "result": [
+            false,
+            "Optimization failed. Estimated distance to minimum too large.",
+            2033183.968285166
+        ]
+    },
+    "69.5": {
+        "models": [
+            "skymodel/global_skymodel_v1.0.yaml",
+            "analysis_2"
+        ],
+        "result": [
+            false,
+            "Optimization failed. Estimated distance to minimum too large.",
+            1926200.0943177904
+        ]
+    },
+    "70.0": {
+        "models": [
+            "skymodel/global_skymodel_v1.0.yaml",
+            "analysis_2"
+        ],
+        "result": [
+            false,
+            "Optimization terminated successfully.",
+            1979051.709458663
+        ]
+    },
+    "70.5": {
+        "models": [
+            "skymodel/global_skymodel_v1.0.yaml",
+            "analysis_2"
+        ],
+        "result": [
+            false,
+            "Optimization terminated successfully.",
+            1991678.5108790325
+        ]
+    },
+    "71.0": {
+        "models": [
+            "skymodel/global_skymodel_v1.0.yaml",
+            "analysis_2"
+        ],
+        "result": [
+            false,
+            "Optimization terminated successfully.",
+            1932071.9634429873
+        ]
+    },
+    "71.5": {
+        "models": [
+            "skymodel/global_skymodel_v1.0.yaml",
+            "analysis_2"
+        ],
+        "result": [
+            false,
+            "Optimization terminated successfully.",
+            1880881.4772316802
+        ]
+    },
+    "72.0": {
+        "models": [
+            "skymodel/global_skymodel_v1.0.yaml",
+            "analysis_2"
+        ],
+        "result": [
+            false,
+            "Optimization terminated successfully.",
+            1829770.6774140643
+        ]
+    },
+    "72.5": {
+        "models": [
+            "skymodel/global_skymodel_v1.0.yaml",
+            "analysis_2"
+        ],
+        "result": [
+            false,
+            "Optimization terminated successfully.",
+            1645787.850756976
+        ]
+    },
+    "73.0": {
+        "models": [
+            "skymodel/global_skymodel_v1.0.yaml",
+            "analysis_2"
+        ],
+        "result": [
+            false,
+            "Optimization terminated successfully.",
+            2262419.7972882716
+        ]
+    },
+    "73.5": {
+        "models": [
+            "skymodel/global_skymodel_v1.0.yaml",
+            "analysis_2"
+        ],
+        "result": [
+            false,
+            "Optimization terminated successfully.",
+            2307121.7594910166
+        ]
+    },
+    "74.0": {
+        "models": [
+            "skymodel/global_skymodel_v1.0.yaml",
+            "analysis_2"
+        ],
+        "result": [
+            false,
+            "Optimization terminated successfully.",
+            2350148.133781102
+        ]
+    },
+    "74.5": {
+        "models": [
+            "skymodel/global_skymodel_v1.0.yaml",
+            "analysis_2"
+        ],
+        "result": [
+            false,
+            "Optimization failed. Estimated distance to minimum too large.",
+            2509553.947365718
+        ]
+    },
+    "75.0": {
+        "models": [
+            "skymodel/global_skymodel_v1.0.yaml",
+            "analysis_2"
+        ],
+        "result": [
+            false,
+            "Optimization terminated successfully.",
+            2549295.0906489543
+        ]
+    },
+    "75.5": {
+        "models": [
+            "skymodel/global_skymodel_v1.0.yaml",
+            "analysis_2"
+        ],
+        "result": [
+            false,
+            "Optimization terminated successfully.",
+            2355763.480479145
+        ]
+    },
+    "76.0": {
+        "models": [
+            "skymodel/global_skymodel_v1.0.yaml",
+            "analysis_2"
+        ],
+        "result": [
+            false,
+            "Optimization terminated successfully.",
+            2552946.5016827537
+        ]
+    },
+    "76.5": {
+        "models": [
+            "skymodel/global_skymodel_v1.0.yaml",
+            "analysis_2"
+        ],
+        "result": [
+            false,
+            "Optimization terminated successfully.",
+            2591887.552360173
+        ]
+    },
+    "77.0": {
+        "models": [
+            "skymodel/global_skymodel_v1.0.yaml",
+            "analysis_2"
+        ],
+        "result": [
+            false,
+            "Optimization terminated successfully.",
+            2504712.048185503
+        ]
+    },
+    "77.5": {
+        "models": [
+            "skymodel/global_skymodel_v1.0.yaml",
+            "analysis_2"
+        ],
+        "result": [
+            false,
+            "Optimization terminated successfully.",
+            2547640.3584333207
+        ]
+    },
+    "78.0": {
+        "models": [
+            "skymodel/global_skymodel_v1.0.yaml",
+            "analysis_2"
+        ],
+        "result": [
+            false,
+            "Optimization terminated successfully.",
+            2591169.741326235
+        ]
+    },
+    "78.5": {
+        "models": [
+            "skymodel/global_skymodel_v1.0.yaml",
+            "analysis_2"
+        ],
+        "result": [
+            false,
+            "Optimization terminated successfully.",
+            2223956.4998834045
+        ]
+    }
+}

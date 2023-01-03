@@ -1,5 +1,10 @@
+from pathlib import Path
+from os import chdir
 import json
+import numpy as np
 import matplotlib.pyplot as plt
+from gammapy.datasets import MapDataset
+from gammapy.modeling.models import Models
 
 # function to add to JSON
 def write_json(new_data, filename='sample.json'):
@@ -36,7 +41,7 @@ def plot_results(lists, spectra=1, spatial=1):
     fig.subplots_adjust(hspace=1, wspace=1)
 
     ax[0].semilogy(lists[0], lists[2])
-    ax[0].set_ylim(1.e-15, 1.e-10)
+    ax[0].set_ylim(1.e-16, 1.e-12)
     if spectra == 1:
         ax[0].set_title("amplitude")
     else:
@@ -74,3 +79,59 @@ def plot_results(lists, spectra=1, spatial=1):
 
     # Combine all the operations and display
     plt.show()
+
+#Calculate TS using total_stat output from fitting
+def computeTS(nullhyp, newhyp):
+    #Read JSON with results
+    list1, list2 = read_json(nullhyp), read_json(newhyp)
+    H0 = [i[2] for i in list1[1]] #store total_stat in list
+    H1 = [i[2] for i in list2[1]]
+    #Compute TS as difference H0 - H1. H0 is null hypothesis
+    TS = [element1 - element2 for (element1, element2) in zip(H0, H1)]
+    return TS
+    
+def IsSuccessful(list):
+    succes = []
+    for i in list[1]:
+        if i[1] == "Optimization terminated successfully.":
+            succes.append(1)
+        else:
+            succes.append(0)
+    return succes
+    
+def plotTS(nullhyp, newhyp):
+    s_TS, f_TS, s_lon, f_lon = [], [], [], []
+    TS = computeTS(nullhyp, newhyp)
+    res = read_json(newhyp)
+    succes = IsSuccessful(res)
+    for i, ele in enumerate(succes):
+        if ele > 0:
+            s_TS.append(TS[i])
+            s_lon.append(res[0][i])
+        else:
+            f_TS.append(TS[i])
+            f_lon.append(res[0][i])
+                
+    fig, ax1 = plt.subplots(figsize=(10, 3))
+    ax1.scatter(s_lon, s_TS, color="green")
+    ax1.scatter(f_lon, f_TS, color="red")
+    ax1.set_ylabel(r'TS', fontweight='bold')
+    ax1.set_xlabel(r'Longitude', fontweight='bold')
+    fig.tight_layout()
+    plt.show()
+
+def plotRes(dataset, model):
+    cwd = Path.cwd()
+    fdatasets = cwd / 'datasets' / dataset
+    fmodels = cwd / model
+
+    for i in np.arange(68, 79, 0.5):
+        analysis = MapDataset.read(filename= fdatasets / f"{ele}-dataset.fits.gz")
+        chdir("..")
+        models_read = Models.read(fmodels / f"model_{i}.yaml")
+        analysis.models = models_read
+        analysis.plot_residuals_spatial(method="diff/sqrt(model)", vmin=-0.5, vmax=0.5, add_cbar=True)
+        analysis.models.plot_regions(color="white")
+        plt.title(f'Position {i}')
+        chdir(cwd)
+        plt.show()
