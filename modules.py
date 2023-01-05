@@ -2,8 +2,13 @@ from pathlib import Path
 from os import chdir
 import json
 import numpy as np
+import astropy.units as u
 import matplotlib.pyplot as plt
+import matplotlib.animation as animation
+from regions import RectangleSkyRegion
+from astropy.coordinates import SkyCoord
 from gammapy.datasets import MapDataset
+from gammapy.maps import Map
 from gammapy.modeling.models import Models
 
 # function to add to JSON
@@ -99,7 +104,7 @@ def IsSuccessful(list):
             succes.append(0)
     return succes
     
-def plotTS(nullhyp, newhyp):
+def plotTS(nullhyp, newhyp, max=-1):
     s_TS, f_TS, s_lon, f_lon = [], [], [], []
     TS = computeTS(nullhyp, newhyp)
     res = read_json(newhyp)
@@ -107,14 +112,17 @@ def plotTS(nullhyp, newhyp):
     for i, ele in enumerate(succes):
         if ele > 0:
             s_TS.append(TS[i])
-            s_lon.append(res[0][i])
+            s_lon.append(float(res[0][i]))
         else:
             f_TS.append(TS[i])
-            f_lon.append(res[0][i])
-                
+            f_lon.append(float(res[0][i]))
+    avg = np.mean(s_TS)
     fig, ax1 = plt.subplots(figsize=(10, 3))
     ax1.scatter(s_lon, s_TS, color="green")
     ax1.scatter(f_lon, f_TS, color="red")
+    ax1.axhline(y = avg, color = 'w', linestyle = '-')
+    if max>0:
+        ax1.set_ylim([0, max])
     ax1.set_ylabel(r'TS', fontweight='bold')
     ax1.set_xlabel(r'Longitude', fontweight='bold')
     fig.tight_layout()
@@ -126,7 +134,7 @@ def plotRes(dataset, model):
     fmodels = cwd / model
 
     for i in np.arange(68, 79, 0.5):
-        analysis = MapDataset.read(filename= fdatasets / f"{ele}-dataset.fits.gz")
+        analysis = MapDataset.read(filename= fdatasets / f"{i}-dataset.fits.gz")
         chdir("..")
         models_read = Models.read(fmodels / f"model_{i}.yaml")
         analysis.models = models_read
@@ -135,3 +143,25 @@ def plotRes(dataset, model):
         plt.title(f'Position {i}')
         chdir(cwd)
         plt.show()
+        
+def showWindow(dataset):
+    fig = plt.figure(figsize=(15, 5))
+    ims = []
+    excess = Map.read("excess_map.fits")
+    if dataset in ["analysis_1", "analysis_2", "analysis_3", "analysis_4"]: 
+        steps = np.arange(68, 79, 0.5)
+        width, height = 10*u.deg, 8*u.deg
+    else:
+        steps = np.arange(68, 79, 0.5)
+        width, height = 10*u.deg, 12*u.deg
+    for i in steps:
+        ax = excess.smooth(2).plot(add_cbar=True, animated=True)
+        ax.set_title(f"l = {i}")
+        region=RectangleSkyRegion(SkyCoord(l=f'{i}', b='2', unit='deg', frame='galactic'), width=width, 
+                                    height=height)
+        pix_reg = region.to_pixel(wcs=ax.wcs)
+        pix_reg.plot(ax=ax, facecolor="none", edgecolor="white")
+        ims.append([ax])
+    plt.close()
+    ani = animation.ArtistAnimation(fig, ims, interval = 500)
+    ani.save("movie.mp4")
