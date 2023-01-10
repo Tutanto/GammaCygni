@@ -85,16 +85,26 @@ def plot_results(lists, spectra=1, spatial=1):
     # Combine all the operations and display
     plt.show()
 
+# If the fit failed in one "window", create a fake "zero" result for that window
+def addMissingElement(list1, list2): #list1 is the one with the missing window, list2 is the one complete (the nullhypothesis)
+    for i, item in enumerate(list1[0]): 
+        if item not in list2[0]:
+            list2[0].insert(i, list1[0][i])
+            list2[1].insert(i, [False, 'Optimization failed. Estimated distance to minimum too large.', 0])
+            for j in range(2,len(list2)):
+                list2[j].insert(i, 0)
+    return list2
+    
+
 #Calculate TS using total_stat output from fitting
 def computeTS(nullhyp, newhyp):
-    #Read JSON with results
-    list1, list2 = read_json(nullhyp), read_json(newhyp)
-    H0 = [i[2] for i in list1[1]] #store total_stat in list
-    H1 = [i[2] for i in list2[1]]
+    H0 = [i[2] for i in nullhyp[1]] #store total_stat in list
+    H1 = [i[2] for i in newhyp[1]]
     #Compute TS as difference H0 - H1. H0 is null hypothesis
     TS = [element1 - element2 for (element1, element2) in zip(H0, H1)]
     return TS
-    
+
+#Check if the Optimization terminated successfully    
 def IsSuccessful(list):
     succes = []
     for i in list[1]:
@@ -103,37 +113,41 @@ def IsSuccessful(list):
         else:
             succes.append(0)
     return succes
-    
-def plotTS(nullhyp, newhyp, max=-1):
+
+#Plot the TS values    
+def plotTS(nullhyp, newhyp, max=None, min=None):
     s_TS, f_TS, s_lon, f_lon = [], [], [], []
-    TS = computeTS(nullhyp, newhyp)
-    res = read_json(newhyp)
-    succes = IsSuccessful(res)
-    for i, ele in enumerate(succes):
+    list1, list2 = read_json(nullhyp), read_json(newhyp)
+    new_list = addMissingElement(list1, list2)
+    TS = computeTS(list1, new_list)
+    succes = IsSuccessful(new_list)
+    for i, ele in enumerate(succes): #Two different arrays for the TS where IsSuccessful is True or False
         if ele > 0:
             s_TS.append(TS[i])
-            s_lon.append(float(res[0][i]))
+            s_lon.append(float(new_list[0][i]))
         else:
             f_TS.append(TS[i])
-            f_lon.append(float(res[0][i]))
+            f_lon.append(float(new_list[0][i]))
     avg = np.mean(s_TS)
     fig, ax1 = plt.subplots(figsize=(10, 3))
     ax1.scatter(s_lon, s_TS, color="green")
     ax1.scatter(f_lon, f_TS, color="red")
-    ax1.axhline(y = avg, color = 'w', linestyle = '-')
-    if max>0:
-        ax1.set_ylim([0, max])
+    ax1.axhline(y = avg, color = 'w', linestyle = '-') #The average TS value
+    if max or min:
+        ax1.set_ylim([min, max])
     ax1.set_ylabel(r'TS', fontweight='bold')
     ax1.set_xlabel(r'Longitude', fontweight='bold')
     fig.tight_layout()
     plt.show()
 
+#Show the residual for a fit
 def plotRes(dataset, model):
     cwd = Path.cwd()
     fdatasets = cwd / 'datasets' / dataset
     fmodels = cwd / model
+    res = read_json(model+'/results_sliding_window.json')
 
-    for i in np.arange(68, 79, 0.5):
+    for i in res[0]:
         analysis = MapDataset.read(filename= fdatasets / f"{i}-dataset.fits.gz")
         chdir("..")
         models_read = Models.read(fmodels / f"model_{i}.yaml")
@@ -143,16 +157,16 @@ def plotRes(dataset, model):
         plt.title(f'Position {i}')
         chdir(cwd)
         plt.show()
-        
+
+#Create a movie to show the position of each window
 def showWindow(dataset):
     fig = plt.figure(figsize=(15, 5))
     ims = []
     excess = Map.read("excess_map.fits")
+    steps = np.arange(68, 79, 0.5)
     if dataset in ["analysis_1", "analysis_2", "analysis_3", "analysis_4"]: 
-        steps = np.arange(68, 79, 0.5)
         width, height = 10*u.deg, 8*u.deg
     else:
-        steps = np.arange(68, 79, 0.5)
         width, height = 10*u.deg, 12*u.deg
     for i in steps:
         ax = excess.smooth(2).plot(add_cbar=True, animated=True)

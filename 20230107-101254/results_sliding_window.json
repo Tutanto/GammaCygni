@@ -1,0 +1,398 @@
+{
+    "68.0": {
+        "models": [
+            "PowerLawSpectralModel",
+            "GeneralizedGaussianSpatialModel",
+            "analysis_7"
+        ],
+        "result": [
+            false,
+            "Optimization terminated successfully.",
+            973509.8140356864
+        ],
+        "amplitude": 6.944052022957189e-14,
+        "lat_0": 4.599356510473908,
+        "r_0": 12.0,
+        "eta": 0.9999987123422625,
+        "e": 0.9990000000000001,
+        "phi": 90.0
+    },
+    "68.5": {
+        "models": [
+            "PowerLawSpectralModel",
+            "GeneralizedGaussianSpatialModel",
+            "analysis_7"
+        ],
+        "result": [
+            false,
+            "Optimization terminated successfully.",
+            966580.9311082592
+        ],
+        "amplitude": 3.769635647072595e-14,
+        "lat_0": 4.5499076388562285,
+        "r_0": 12.0,
+        "eta": 0.9999985369880587,
+        "e": 0.9990000000000001,
+        "phi": 90.0
+    },
+    "69.0": {
+        "models": [
+            "PowerLawSpectralModel",
+            "GeneralizedGaussianSpatialModel",
+            "analysis_7"
+        ],
+        "result": [
+            false,
+            "Optimization failed. Estimated distance to minimum too large.",
+            977815.6257538784
+        ],
+        "amplitude": 4.4115172347734245e-14,
+        "lat_0": 4.524659349298968,
+        "r_0": 12.0,
+        "eta": 0.9999986818930605,
+        "e": 0.9990000000000001,
+        "phi": 90.0
+    },
+    "69.5": {
+        "models": [
+            "PowerLawSpectralModel",
+            "GeneralizedGaussianSpatialModel",
+            "analysis_7"
+        ],
+        "result": [
+            false,
+            "Optimization failed. Estimated distance to minimum too large.",
+            929527.0604491448
+        ],
+        "amplitude": 5.744263219849766e-14,
+        "lat_0": 4.4715155582051755,
+        "r_0": 12.0,
+        "eta": 0.9999999310380847,
+        "e": 0.9990000000000001,
+        "phi": 90.0
+    },
+    "70.0": {
+        "models": [
+            "PowerLawSpectralModel",
+            "GeneralizedGaussianSpatialModel",
+            "analysis_7"
+        ],
+        "result": [
+            false,
+            "Optimization terminated successfully.",
+            958339.0990463832
+        ],
+        "amplitude": 4.62007752610904e-14,
+        "lat_0": 4.546811109088389,
+        "r_0": 12.0,
+        "eta": 0.999999930132166,
+        "e": 0.9990000000000001,
+        "phi": 90.0
+    },
+    "70.5": {
+        "models": [
+            "PowerLawSpectralModel",
+            "GeneralizedGaussianSpatialModel",
+            "analysis_7"
+        ],
+        "result": [
+            false,
+            "Optimization terminated successfully.",
+            963721.1311178879
+        ],
+        "amplitude": 4.7849883406725e-14,
+        "lat_0": 4.590544314352748,
+        "r_0": 12.0,
+        "eta": 0.9999991930005356,
+        "e": 0.9990000000000001,
+        "phi": 90.0
+    },
+    "71.0": {
+        "models": [
+            "PowerLawSpectralModel",
+            "GeneralizedGaussianSpatialModel",
+            "analysis_7"
+        ],
+        "result": [
+            false,
+            "Optimization terminated successfully.",
+            941952.9072441268
+        ],
+        "amplitude": 6.079650180227553e-14,
+        "lat_0": 4.638326009671231,
+        "r_0": 12.0,
+        "eta": 0.999999055862727,
+        "e": 0.9990000000000001,
+        "phi": 90.0
+    },
+    "71.5": {
+        "models": [
+            "PowerLawSpectralModel",
+            "GeneralizedGaussianSpatialModel",
+            "analysis_7"
+        ],
+        "result": [
+            false,
+            "Optimization failed. Estimated distance to minimum too large.",
+            906570.6534556433
+        ],
+        "amplitude": 5.1259427037394376e-14,
+        "lat_0": 4.670775758759827,
+        "r_0": 12.0,
+        "eta": 0.9999982932486999,
+        "e": 0.9990000000000001,
+        "phi": 90.0
+    },
+    "72.0": {
+        "models": [
+            "PowerLawSpectralModel",
+            "GeneralizedGaussianSpatialModel",
+            "analysis_7"
+        ],
+        "result": [
+            false,
+            "Optimization terminated successfully.",
+            871694.530915365
+        ],
+        "amplitude": 6.172771003772031e-14,
+        "lat_0": 4.695312117415348,
+        "r_0": 12.0,
+        "eta": 0.999999055862727,
+        "e": 0.9990000000000001,
+        "phi": 90.0
+    },
+    "72.5": {
+        "models": [
+            "PowerLawSpectralModel",
+            "GeneralizedGaussianSpatialModel",
+            "analysis_7"
+        ],
+        "result": [
+            false,
+            "Optimization terminated successfully.",
+            788393.9303172141
+        ],
+        "amplitude": 6.415246322098531e-14,
+        "lat_0": 4.639475033905794,
+        "r_0": 12.0,
+        "eta": 0.9999997831795844,
+        "e": 0.9990000000000001,
+        "phi": 90.0
+    },
+    "73.0": {
+        "models": [
+            "PowerLawSpectralModel",
+            "GeneralizedGaussianSpatialModel",
+            "analysis_7"
+        ],
+        "result": [
+            false,
+            "Optimization terminated successfully.",
+            968409.3821585402
+        ],
+        "amplitude": 4.3773444439124444e-14,
+        "lat_0": 4.581097405322068,
+        "r_0": 12.0,
+        "eta": 0.9999990576513916,
+        "e": 0.9990000000000001,
+        "phi": 90.0
+    },
+    "73.5": {
+        "models": [
+            "PowerLawSpectralModel",
+            "GeneralizedGaussianSpatialModel",
+            "analysis_7"
+        ],
+        "result": [
+            false,
+            "Optimization terminated successfully.",
+            971070.1497351045
+        ],
+        "amplitude": 4.0689046975629293e-14,
+        "lat_0": 4.615194318318613,
+        "r_0": 12.0,
+        "eta": 0.9999997817389709,
+        "e": 0.9990000000000001,
+        "phi": 90.0
+    },
+    "74.0": {
+        "models": [
+            "PowerLawSpectralModel",
+            "GeneralizedGaussianSpatialModel",
+            "analysis_7"
+        ],
+        "result": [
+            false,
+            "Optimization terminated successfully.",
+            973589.9174996907
+        ],
+        "amplitude": 4.5900319126152135e-14,
+        "lat_0": 4.7105403388645355,
+        "r_0": 12.0,
+        "eta": 0.9999990561952989,
+        "e": 0.9990000000000001,
+        "phi": 90.0
+    },
+    "74.5": {
+        "models": [
+            "PowerLawSpectralModel",
+            "GeneralizedGaussianSpatialModel",
+            "analysis_7"
+        ],
+        "result": [
+            false,
+            "Optimization failed. Estimated distance to minimum too large.",
+            850167.2951983674
+        ],
+        "amplitude": 4.5927240821628204e-14,
+        "lat_0": 4.593850777922262,
+        "r_0": 12.0,
+        "eta": 0.9999991058997773,
+        "e": 0.9990000000000001,
+        "phi": 90.0
+    },
+    "75.0": {
+        "models": [
+            "PowerLawSpectralModel",
+            "GeneralizedGaussianSpatialModel",
+            "analysis_7"
+        ],
+        "result": [
+            false,
+            "Optimization terminated successfully.",
+            827092.1164912652
+        ],
+        "amplitude": 5.213305191678627e-14,
+        "lat_0": 4.49952126119695,
+        "r_0": 12.0,
+        "eta": 0.9999998589523577,
+        "e": 0.9990000000000001,
+        "phi": 90.0
+    },
+    "75.5": {
+        "models": [
+            "PowerLawSpectralModel",
+            "GeneralizedGaussianSpatialModel",
+            "analysis_7"
+        ],
+        "result": [
+            false,
+            "Optimization terminated successfully.",
+            810991.8879692568
+        ],
+        "amplitude": 5.3526807869656803e-14,
+        "lat_0": 4.402088034690014,
+        "r_0": 12.0,
+        "eta": 0.999999055862727,
+        "e": 0.9990000000000001,
+        "phi": 90.0
+    },
+    "76.0": {
+        "models": [
+            "PowerLawSpectralModel",
+            "GeneralizedGaussianSpatialModel",
+            "analysis_7"
+        ],
+        "result": [
+            false,
+            "Optimization terminated successfully.",
+            532033.7165059034
+        ],
+        "amplitude": 2.9089810489642065e-14,
+        "lat_0": 4.448113327456779,
+        "r_0": 12.0,
+        "eta": 0.9999987877351937,
+        "e": 0.9990000000000001,
+        "phi": 90.0
+    },
+    "76.5": {
+        "models": [
+            "PowerLawSpectralModel",
+            "GeneralizedGaussianSpatialModel",
+            "analysis_7"
+        ],
+        "result": [
+            false,
+            "Optimization terminated successfully.",
+            509177.5598109515
+        ],
+        "amplitude": 2.483365241986179e-14,
+        "lat_0": 4.4474943215978024,
+        "r_0": 12.0,
+        "eta": 0.999999055862727,
+        "e": 0.9990000000000001,
+        "phi": 90.0
+    },
+    "77.0": {
+        "models": [
+            "PowerLawSpectralModel",
+            "GeneralizedGaussianSpatialModel",
+            "analysis_7"
+        ],
+        "result": [
+            false,
+            "Optimization terminated successfully.",
+            493243.1824545751
+        ],
+        "amplitude": 2.682323614200556e-14,
+        "lat_0": 4.676143683701775,
+        "r_0": 12.0,
+        "eta": 0.9999997166398469,
+        "e": 0.9990000000000001,
+        "phi": 90.0
+    },
+    "77.5": {
+        "models": [
+            "PowerLawSpectralModel",
+            "GeneralizedGaussianSpatialModel",
+            "analysis_7"
+        ],
+        "result": [
+            false,
+            "Optimization terminated successfully.",
+            495595.2762739218
+        ],
+        "amplitude": 2.2605188025436087e-14,
+        "lat_0": 4.81174539146446,
+        "r_0": 12.0,
+        "eta": 0.999999570581362,
+        "e": 0.9990000000000001,
+        "phi": 90.0
+    },
+    "78.0": {
+        "models": [
+            "PowerLawSpectralModel",
+            "GeneralizedGaussianSpatialModel",
+            "analysis_7"
+        ],
+        "result": [
+            false,
+            "Optimization terminated successfully.",
+            497898.3368577865
+        ],
+        "amplitude": 2.934337192676284e-14,
+        "lat_0": 4.820426269204687,
+        "r_0": 12.0,
+        "eta": 0.9999997123483898,
+        "e": 0.9990000000000001,
+        "phi": 90.0
+    },
+    "78.5": {
+        "models": [
+            "PowerLawSpectralModel",
+            "GeneralizedGaussianSpatialModel",
+            "analysis_7"
+        ],
+        "result": [
+            false,
+            "Optimization terminated successfully.",
+            334947.9908414399
+        ],
+        "amplitude": 1.1594176929775777e-14,
+        "lat_0": 4.959638055064168,
+        "r_0": 12.0,
+        "eta": 0.9999994287504421,
+        "e": 0.9990000000000001,
+        "phi": 90.0
+    }
+}
